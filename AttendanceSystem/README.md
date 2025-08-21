@@ -1,19 +1,25 @@
-# Attendance System (Java Serialization)
+
+# Employee Attendance System (Java Serialization)
 
 ## Description
-A console-based Employee Attendance System using Java serialization. 
-Features include:
-- Add attendance records
-- View attendance records
-- Search employee by ID
-- Save/load data to/from file
+A simple console-based Employee Attendance System built in Java using **serialization** to persist data.  
+It allows HR managers to maintain attendance records efficiently with the following features:  
 
-## Files
-- `Attendence.java` - Employee attendance class (implements Serializable)
-- `HR_manager.java` - Main class with menu, file operations, and logic
+- Add new attendance records for employees
+- View all attendance records
+- Search for an employee by ID
+- Save attendance data to a file and load it back
 
-## How to Run
-1. Compile the code:
+This project demonstrates **object serialization** and basic file handling in Java.
 
-```bash
-javac employee_attendence/*.java
+## Features
+- Persistent storage using Java Serialization
+- Easy console-based menu for user interaction
+- Search functionality for quick employee lookup
+- Modular code structure with separate classes for Employee and HR Manager
+
+## Usage
+
+* Follow the console menu to add, view, or search attendance records.
+* All data is saved automatically using Java serialization.
+
